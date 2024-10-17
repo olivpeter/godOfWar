@@ -1,0 +1,29 @@
+header.mainHeader {
+	background: $black;
+	border-bottom: 1px solid $border;
+
+	.wrapContainer {
+		padding: 1.6rem;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		.avaliableFor {
+			font-size: 1.6rem;
+			font-weight: 600;
+			display: flex;
+			flex-direction: column;
+			gap: 0.8rem;
+
+			.plataforms {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				span {
+					padding: 0.4rem 0.8rem;
+					border: 1px solid $white;
+				}
+			}
+		}
+	}
+}
