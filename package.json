@@ -1,0 +1,28 @@
+{
+	"name": "godofwar",
+	"version": "1.0.0",
+	"description": "Simply study project with HTML and SCSS",
+	"main": "index.html",
+	"scripts": {
+		"dev": "lite-server"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/olivpeter/godOfWar.git"
+	},
+	"keywords": [
+		"SCSS",
+		"HTML",
+		"JS",
+		"Responsive"
+	],
+	"author": "Pedro Oliveira",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/olivpeter/godOfWar/issues"
+	},
+	"homepage": "https://github.com/olivpeter/godOfWar#readme",
+	"devDependencies": {
+		"lite-server": "^2.6.1"
+	}
+}
