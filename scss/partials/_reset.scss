@@ -2,12 +2,12 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	background: $black;
 }
 
 html {
 	font-size: 62.5%;
 	scroll-behavior: smooth;
+	color: $white;
 }
 
 section {
@@ -15,8 +15,8 @@ section {
 }
 
 body {
+	background: $black;
 	line-height: 1.5;
-	color: $white;
 	font-family: 'Archivo', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -45,10 +45,6 @@ svg {
 
 span {
 	display: block;
-}
-
-button {
-	cursor: pointer;
 }
 
 input,
@@ -82,6 +78,7 @@ p {
 }
 
 button {
+	cursor: pointer;
 	padding: 1.8rem 3.6rem;
 	background: $blue;
 	color: $white;
@@ -90,6 +87,13 @@ button {
 	transition: all 0.3s ease;
 	&:hover {
 		background: $blue-hover;
+	}
+	&.btnSecondary {
+		background: $white;
+		color: $black;
+		&:hover {
+			background: $text;
+		}
 	}
 }
 

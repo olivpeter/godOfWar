@@ -1,0 +1,92 @@
+main.heroBanner {
+	min-height: 80rem;
+	background: url(/assets/heroBanner-1920.jpg) no-repeat center / cover;
+	display: flex;
+
+	.wrapContainer {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		.leftContent {
+			width: 100%;
+			max-width: 78.2rem;
+
+			h1 {
+				margin-bottom: 1.8rem;
+			}
+
+			p {
+				font-size: 2.2rem;
+				font-weight: 500;
+				line-height: 140%;
+				color: $white;
+				margin-bottom: 4rem;
+			}
+
+			.lauchDetails {
+				display: flex;
+				align-items: center;
+				gap: 1.6rem;
+				margin-bottom: 2.4rem;
+				p {
+					color: $white;
+					margin-bottom: 0rem;
+				}
+			}
+
+			.pricing {
+				display: flex;
+				align-items: center;
+			}
+		}
+
+		.rightContent {
+			width: 100%;
+			max-width: 44.3rem;
+
+			span {
+				margin-bottom: 1.6rem;
+				strong {
+					font-size: 1.8rem;
+				}
+			}
+
+			.trailerBanner {
+				width: 44rem;
+				height: 24.8rem;
+				border: 0.4rem solid $blue;
+				position: relative;
+				overflow: hidden;
+				cursor: pointer;
+				margin-bottom: 4rem;
+				&:hover {
+					img.playIcon {
+						opacity: 1;
+					}
+				}
+
+				img.playIcon {
+					position: absolute;
+					bottom: 2.4rem;
+					left: 2.4rem;
+					opacity: 0;
+					transition: all 0.3s ease;
+				}
+			}
+
+			.ageRating {
+				display: flex;
+				align-items: center;
+				gap: 0.8rem;
+
+				span {
+					font-size: 1.6rem;
+					margin-bottom: 0rem;
+					width: 100%;
+					max-width: 27.4rem;
+				}
+			}
+		}
+	}
+}
