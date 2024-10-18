@@ -1,0 +1,55 @@
+section.about {
+	min-height: 90rem;
+	background: url(/assets/bg-about-1920.png) no-repeat center / cover;
+	display: flex;
+
+	.wrapContainer {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		.leftContent {
+			width: 100%;
+			max-width: 63rem;
+
+			.businessDetails {
+				display: flex;
+				align-items: center;
+				gap: 1.6rem;
+				margin-bottom: 2.4rem;
+				p {
+					color: $white;
+					margin-bottom: 0rem;
+				}
+			}
+
+			h2 {
+				margin-bottom: 2.4rem;
+			}
+
+			p {
+				margin-bottom: 5.6rem;
+			}
+
+			.gameSummary {
+				display: flex;
+				align-items: center;
+				gap: 2.4rem;
+
+				p {
+					font-size: 1.6rem;
+					color: $white;
+					margin-bottom: 0rem;
+					width: 100%;
+					max-width: 32.4rem;
+				}
+
+				.developerContainer {
+					display: flex;
+					align-items: center;
+					gap: 2.4rem;
+				}
+			}
+		}
+	}
+}
