@@ -1,7 +1,7 @@
 {
 	"name": "godofwar",
 	"version": "1.0.0",
-	"description": "Simply study project with HTML and SCSS",
+	"description": "Project built from scratch as part of a Front-end event Dev Process by CodeBoost. During the sessions, we dive into creating a God of War Landing Page, step by step, mastering essential web development skills using HTML, SCSS, and JavaScript.",
 	"main": "index.html",
 	"scripts": {
 		"dev": "lite-server"
