@@ -1,0 +1,24 @@
+section.featureList {
+	background: $background;
+	.wrapContainer {
+		padding: 5.6rem 1.6rem;
+
+		ul {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+
+			li.listItem {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				gap: 1.2rem;
+				p {
+					font-size: 1.6rem;
+					line-height: 160%;
+					text-align: center;
+				}
+			}
+		}
+	}
+}
